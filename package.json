@@ -1,0 +1,25 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "最终会完成一个 mini-webpack，具备：   ✅ entry / output   ✅ JS 模块依赖分析（AST）  ✅ 依赖图（Graph）   ✅ DFS / 拓扑排序思想  ✅ bundle 生成   ✅ 简单 loader   ✅ 简单 plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasaisai/mini-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wasaisai/mini-webpack/issues"
+  },
+  "homepage": "https://github.com/wasaisai/mini-webpack#readme",
+  "dependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/parser": "^7.29.0",
+    "@babel/traverse": "^7.29.0"
+  }
+}
