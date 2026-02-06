@@ -8,9 +8,10 @@
 ✅ 简单 loader  
 ✅ 简单 plugin
 
-并且你能回答这些问题：
+并且能回答这些问题：
 
-Webpack 打包流程？
+Webpack 打包流程:
+Webpack 的第一步是什么: 从entry出发，递归分析模块依赖
 
 为什么要 AST？
 
