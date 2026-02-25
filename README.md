@@ -38,5 +38,18 @@ tree-shaking 为什么能做？
 3️⃣ 收集依赖（DFS）
 4️⃣ 构建依赖图（Graph）
 5️⃣ 生成 bundle（核心）
-6️⃣ loader 机制
+6️⃣ loader 机制: Loader 本质是一个函数管道（函数组合），把非 JS 文件转换成 JS
 7️⃣ plugin 机制
+
+
+         ┌────────────┐
+         │  Compiler  │
+         └─────┬──────┘
+               │
+        生命周期 hooks
+               │
+   ┌───────────┴───────────┐
+   │                       │
+ Loader 处理源码         Plugin 监听阶段
+   │                       │
+ parse → 依赖图 → bundle 生成
