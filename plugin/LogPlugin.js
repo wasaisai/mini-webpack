@@ -21,3 +21,5 @@ class LogPlugin {
         });
     }
 }
+
+module.exports = LogPlugin;
