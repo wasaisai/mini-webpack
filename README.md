@@ -36,7 +36,7 @@ tree-shaking 为什么能做？
 1️⃣ 初始化项目 & 入口
 2️⃣ 读取文件 + AST 解析
 3️⃣ 收集依赖（DFS）
-4️⃣ 构建依赖图（Graph）
+4️⃣ 构建依赖图（Graph）:依赖关系的数据结构
 5️⃣ 生成 bundle（核心）
 6️⃣ loader 机制: Loader 本质是一个函数管道（函数组合），把非 JS 文件转换成 JS
 7️⃣ plugin 机制
