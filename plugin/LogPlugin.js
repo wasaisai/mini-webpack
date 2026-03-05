@@ -13,11 +13,11 @@
 class LogPlugin {
     apply(compiler) {
         compiler.hooks.run.tap('LogPlugin', () => {
-            console.log('开始构建');
+            console.log('🚀 编译开始');
         });
 
         compiler.hooks.emit.tap('LogPlugin', (graph) => {
-            console.log('构建完成，模块数量：', Object.keys(graph).length)
+            console.log('🎉 编译完成')
         });
     }
 }
